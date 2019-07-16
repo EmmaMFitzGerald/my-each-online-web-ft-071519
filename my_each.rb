@@ -5,4 +5,5 @@ def my_each(collection)
   new_array << yield[i]
   i += 1
   end
+  return new_array
 end
